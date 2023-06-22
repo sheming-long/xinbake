@@ -35,6 +35,7 @@ module.exports = {
           'less-loader',
         ],
       },
+      
       {
         test: /\.(woff | eot | ttf | otf | svg)$/,
         type: 'asset/resource',
