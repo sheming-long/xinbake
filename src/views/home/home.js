@@ -14,7 +14,6 @@ let next = document.querySelector(".next"); //获取下一张 按钮
 let prev = document.querySelector(".prev");//获取上一张 按钮
 let box = document.getElementById("Box");//获取整个盒子
 let little = document.getElementsByClassName("little"); //获取所有轮播圆点按钮 集合
-
 let index = 0;
 let time = 0;
 

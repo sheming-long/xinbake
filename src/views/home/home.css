@@ -21,13 +21,12 @@ header {
   width: 100%;
   height: 100%;
   color: #FFFFFF;
-  /*设置图片默认透明度为0 */
+
   opacity: 0;
-  /*设置图片过度效果， 会出现淡入淡出效果 */
   transition: all 0.8s;
 }
 .lunbotu .baoguo .show {
-  /*通过添加show，改变图片透明度，从而实现切换效果*/
+  
   opacity: 1;
 }
 .lunbotu .prev {
@@ -247,4 +246,8 @@ header {
 }
 .license img {
   display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: black;
 }

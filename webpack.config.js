@@ -101,23 +101,6 @@ module.exports = {
       template: './src/views/store/store.html',
       chunks: ['common', 'store'],
     }),
-    // new HtmlWebpackPlugin({
-    //   template: './public/index.html',
-    //   cdn: {
-    //     script: [
-    //       'https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js',
-    //       'https://cdn.bootcdn.net/ajax/libs/lodash.js/4.17.21/lodash.core.min.js',
-    //     ],
-    //     style: [],
-    //   },
-    // }),
-    // ...Object.entries(views).map(
-    //   ([key, value]) =>
-    //     new HtmlWebpackPlugin({
-    //       template: value.replace(/$/, '.html'),
-    //       chunks: ['common', key],
-    //       filename: `${key}.html`,
-    //     })
-    // ),
+    
   ],
 };
