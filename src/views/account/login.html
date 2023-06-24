@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="./account.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-top">
+          <span class="display-1">
+            登录或创建一个新帐户 🌟
+          </span>
+        </div>
+        <div class="container-bom">
+          <ul>
+            <li><a href="./login.html">登录</a></li>
+            <li><a href="./register.html">注册</a></li>
+            <li><a href="./account.html" class="black">关于星享俱乐部</a></li>
+          </ul>
+        </div>
+    </div>
+    <div class="box">
+        <form action="../home/home.html" autocomplete="on" class="fm">
+            <input type="text" placeholder="用户名或电子邮箱" class="te" autofocus required pattern="^[0-9a-zA-Z]{6,16}$" title="匹配长度在 6 到 16 的字符串，且字符串由数字和英文字母组成">
+            <input type="password" class="pa" placeholder="请输入密码" required pattern="^[0-9a-zA-Z]{6,16}$" title="匹配长度在 6 到 16 的字符串，且字符串由数字和英文字母组成">
+            <input type="checkbox" class="che">
+            <span class="one">
+                <img src="https://www-static.chinacdn.starbucks.com.cn/prod/assets/icons/icon-show-password.svg" alt="">
+            </span>
+            <span class="two">
+                <a href="./register.html">忘记密码？</a>
+            </span>
+            <input type="submit" class="login1">
+        </form>
+    </div>
+    <!-- 脚部分 -->
+  <div class="footer">
+    <div class="footer_fang">
+      <img src="https://www-static.chinacdn.starbucks.com.cn/prod/assets/icons/icon-home.svg" alt="">
+      <p><a href="../home/home.html"> 主 页 </a></p>
+    </div>
+    <div class="footer_fang">
+      <img src="https://www-static.chinacdn.starbucks.com.cn/prod/assets/icons/icon-stores.svg" alt="">
+      <p><a href="../store/store.html"> 门 店 </a></p>
+    </div>
+    <div class="footer_fang">
+      <img src="https://www-static.chinacdn.starbucks.com.cn/prod/assets/icons/icon-account-active.svg" alt="">
+      <p><a href="../account/account.html" class="lv">我的账户</a></p>
+    </div>
+    <div class="footer_fang">
+      <img src="https://www-static.chinacdn.starbucks.com.cn/prod/assets/icons/icon-menu.svg" alt="">
+      <p><a href="../menu/menu.html"> 菜 单 </a></p>
+    </div>
+    <div class="footer_fang">
+      <img src="https://www-static.chinacdn.starbucks.com.cn/prod/assets/icons/icon-more.svg" alt="">
+      <p><a href="../more/more.html"> 更 多 </a></p>
+    </div>
+  </div>
+    <script src="./account.js"></script>
+    
+</body>
+</html>
