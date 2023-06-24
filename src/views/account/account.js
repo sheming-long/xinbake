@@ -1,3 +1,4 @@
+import './account.css'
 const passwordInput = document.querySelector('.pa');
 const togglePasswordButton = document.querySelector('.one>img');
 
