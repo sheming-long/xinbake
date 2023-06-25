@@ -7,6 +7,8 @@ module.exports = {
  
       home: './src/views/home/home.js',
       menu: './src/views/menu/menu.js',
+      login: './src/views/account/login.js',
+      register: './src/views/account/register.js',
       more: './src/views/more/more.js',
       store: './src/views/store/store.js',
       account: './src/views/account/account.js',
@@ -112,6 +114,18 @@ module.exports = {
       filename: 'store.html',
       template: './src/views/store/store.html',
       chunks: ['common', 'store'],
+    }),
+    new HtmlWebpackPlugin({
+      inject: 'body',
+      filename: 'login.html',
+      template: './src/views/account/login.html',
+      chunks: ['common', 'account'],
+    }),
+    new HtmlWebpackPlugin({
+      inject: 'body',
+      filename: 'register.html',
+      template: './src/views/account/register.html',
+      chunks: ['common', 'account'],
     }),
     
   ],

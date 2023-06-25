@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.w {
+  width: 92vw;
+  margin: 0 auto;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  margin: 16px;
+  box-sizing: border-box;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header div img {
+  width: 36px;
+}
+header div span {
+  font-size: 22px !important;
+  color: #8b8b8b;
+}
+article ul {
+  padding: 30vw 0;
+  box-sizing: border-box;
+}
+article ul li {
+  padding: 1vw 0;
+}
+article ul li a {
+  color: #000;
+  font-size: 4.6vw;
+  font-weight: 700;
+}
+article ul .h {
+  padding: 3vw 0;
+}
+article ul .dengl {
+  display: flex;
+}
+article ul .dengl a {
+  font-size: 4vw !important;
+  color: #00A862 !important;
+  font-weight: 400 !important;
+}
+article ul .dengl a img {
+  margin-right: 1vw;
+}
+article ul .dengl a:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+}
+article ul .dengl a:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  margin-left: 8vw;
+  border: 1px solid #00A862;
+  padding: 1vw 3vw;
+  border-radius: 5vw;
+}
+footer div {
+  padding: 9vw 0;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.38);
+}
+footer div a {
+  color: rgba(0, 0, 0, 0.38);
+}
+footer div span {
+  margin: 0 1vw;
+}
