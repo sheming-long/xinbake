@@ -51,6 +51,7 @@ module.exports = {
         test: /\.(htm|html)$/,
         loader: 'html-withimg-loader'
       }
+
     ],
   },
   mode: process.env.NODE_ENV,
