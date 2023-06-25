@@ -1,5 +1,3 @@
-import './menu.less';
-
 // import './images'
 import './menu.css'
 
@@ -118,22 +116,22 @@ function xuanRanImg(arr, node) {
         <h3>${arr[num].title}</h3>
         <ul class = "bigul">
             <li>
-                <div style="background: url('./images/${num = num + 1 }.jpg');">
+                <div style="background: url('${arr[num1].url}');">
                 </div>
                 <strong>${arr[num].title}</strong>
             </li>
             <li>
-                <div style="background: url('./images/${num = num + 1 }.jpg');">
+                <div style="background: url('${arr[num2].url}');">
                 </div>
                 <strong>${arr[num3].title}</strong>
             </li>
             <li>
-                <div style="background: url('./images/${num = num + 1 }.jpg');">
+                <div style="background: url('${arr[num3].url}');">
                 </div>
                 <strong>${arr[num2].title}</strong>
             </li>
             <li>
-                <div style="background: url('./images/${num = num + 1 }.jpg');">
+                <div style="background: url('${arr[num].url}');">
                 </div>
                 <strong>${arr[num1].title}</strong>
             </li>
