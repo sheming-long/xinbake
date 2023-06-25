@@ -6,7 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>主页</title>
 </head>
+    <style>
+            @font-face {
+        font-family: 'iconfont';  /* Project id 3783673 */
+        src: url('http://at.alicdn.com/t/c/font_3783673_x0w3u6cm0yh.woff2?t=1687657855627') format('woff2'),
+            url('http://at.alicdn.com/t/c/font_3783673_x0w3u6cm0yh.woff?t=1687657855627') format('woff'),
+            url('http://at.alicdn.com/t/c/font_3783673_x0w3u6cm0yh.ttf?t=1687657855627') format('truetype');
+      }
+      #shoucang::after 
+      {
+        /* 下面这个是说我们的字体属于哪种字体，即它的family是谁 */
+        font-family: "iconfont";
+        
+          content: attr(data-icon);
+          
+          /* font-size: 100px;*/
+      }
 
+    </style>
 <body>
   <section class="w-screen">
     <header>
@@ -24,11 +41,11 @@
         <img src="https://artwork.starbucks.com.cn/banners-homepage-banner/main_7fc4f760-6926-4eeb-9304-06581dd9a737.jpg" alt="" class="img">
       </div>
       <!--上一张按钮-->
-      <span class="prev">＞</span>
+      <span class="prev" data-icon="&#xe65f" id="shoucang"></span>
       <!--下一张按钮-->
-      <span class="next">＜</span>
+      <span class="next" data-icon="&#xe660" id="shoucang"></span>
     
-     
+      
     </div>
    </div>
    <div class="datupi">
@@ -125,8 +142,8 @@
           <span>咖啡评鉴</span>
          </li>
       </ul>
-      <div class="left" >＜</div>
-      <div class="right">＞</div>
+      <div class="left" ><img src="https://www-static.chinacdn.starbucks.com.cn/prod/assets/icons/icon-scroll-right.svg" alt="" style=" transform: rotate(180deg); margin-top: 3vw"></div>
+      <div class="right"><img src="https://www-static.chinacdn.starbucks.com.cn/prod/assets/icons/icon-scroll-right.svg" alt="" style="margin-top: 3vw"></div>
   </div>
   <div class="license">
     <span>
@@ -142,7 +159,7 @@
   <div class="footer">
     <div class="footer_fang">
       <img src="https://www-static.chinacdn.starbucks.com.cn/prod/assets/icons/icon-home-active.svg" alt="">
-      <p><a href="../home.html"> 主 页 </a></p>
+      <p><a href="../home.html" style="color: #00a862;"> 主 页 </a></p>
     </div>
     <div class="footer_fang">
       <img src="https://www-static.chinacdn.starbucks.com.cn/prod/assets/icons/icon-stores.svg" alt="">

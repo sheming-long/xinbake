@@ -31,6 +31,7 @@ body {
   padding: 0.8vw 0;
 }
 section {
+  height: 12600px;
   background-color: rgba(0, 0, 0, 0.04);
 }
 section .guanggao {
@@ -63,14 +64,14 @@ section .menu_list ul {
 }
 section .menu_list li {
   text-align: center;
-  width: 45%;
+  width: 40%;
   list-style: none;
 }
 section .menu_list li div {
   margin: 6px auto 6px;
   box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.12);
   width: 100%;
-  height: 50vw;
+  height: 40vw;
   border-radius: 50%;
   background-position: center center !important;
   background-repeat: no-repeat !important;
@@ -83,7 +84,7 @@ section .menu_list li div {
   justify-content: space-around;
   position: fixed;
   bottom: 0;
-  background-color: #f7f7f7;
+  background-color: white;
 }
 .footer_fang {
   width: 16%;
