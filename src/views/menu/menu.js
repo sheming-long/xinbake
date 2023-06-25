@@ -1,7 +1,4 @@
-// import './images'
 import './menu.css'
-
-
 
 const arrs = [
     {
