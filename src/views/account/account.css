@@ -71,3 +71,92 @@ a {
   .footer_fang p .lv {
     color: green;
   }
+  /* 登录 */
+.box {
+    width: 100%;
+    height: 60vw;
+    position: relative;
+}
+.fm {
+    display: flex;
+    flex-direction: column;
+}
+.fm .te,
+.fm .pa {
+    display: block;
+    line-height: 10vw;
+    margin: 2vw auto 5vw auto;
+    width: 60vw;
+    border: none;
+    border-bottom: 2px red solid;
+}
+.one {
+    position: absolute;
+    top:78px;
+    right: 74px;
+}
+.two {
+    position: absolute;
+    top: 133px;
+    right: 54px;
+    text-decoration: none;
+    font-size: 2vw;
+}
+.two a {
+    color: green;
+}
+.three {
+    position: absolute;
+    top:129px;
+    left: 94px;
+    font-size: 2vw;
+}
+.four {
+    position: absolute;
+    top: 160px;
+    left: -8px;
+}
+.che {
+    margin-left: -204px;
+    border: 1px green solid;
+}
+.login1 {
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 447px;
+    right: 62px;
+}
+/* 注册 */
+.wrapper-app {
+    width: 100%;
+    height: 532px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper-app-top {
+    width: 327px;
+    height: 115px;
+    margin: 0 auto;
+}
+.wrapper-app-top h2 {
+    font-size: 5vw;
+}
+.wrapper-app-top p {
+    font-size: 4vw;
+}
+.wrapper-app-top p a {
+    color: green;
+    font-size: 4vw;
+}
+.wrapper-app-bom {
+    width: 100%;
+    height: 417px;
+}
+.wrapper-app-bom div {
+    margin-left:25%;
+}
