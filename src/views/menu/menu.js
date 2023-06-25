@@ -1,3 +1,5 @@
+import './menu.less';
+
 const arrs = [
     {
         "title": "卡布奇诺（热/冷）",
@@ -207,22 +209,22 @@ function xuanRanImg(arr, node) {
         <h3>${arr[i].title}</h3>
         <ul class = "bigul">
             <li>
-                <div style="background: url('./images/${num = num + 1 }.jpg');">
+                <div style="background: url('../images/${num = num + 1 }.jpg');">
                 </div>
                 <strong>${arr[i].title}</strong>
             </li>
             <li>
-                <div style="background: url('./images/${num = num + 1 }.jpg');">
+                <div style="background: url('../images/${num = num + 1 }.jpg');">
                 </div>
                 <strong>${arr[i].title}</strong>
             </li>
             <li>
-                <div style="background: url('./images/${num = num + 1 }.jpg');">
+                <div style="background: url('../images/${num = num + 1 }.jpg');">
                 </div>
                 <strong>${arr[i].title}</strong>
             </li>
             <li>
-                <div style="background: url('./images/${num = num + 1 }.jpg');">
+                <div style="background: url('../images/${num = num + 1 }.jpg');">
                 </div>
                 <strong>${arr[i].title}</strong>
             </li>

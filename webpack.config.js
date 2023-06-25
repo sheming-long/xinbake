@@ -38,6 +38,18 @@ module.exports = {
         test: /\.(woff | eot | ttf | otf | svg)$/,
         type: 'asset/resource',
       },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'images/[name][ext]'
+        }
+      },
+      {
+        test: /\.(htm|html)$/,
+        loader: 'html-withimg-loader'
+      }
+
     ],
   },
   mode: process.env.NODE_ENV,
