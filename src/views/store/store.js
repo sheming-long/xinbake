@@ -63,23 +63,46 @@ const data = [
     },
 ]
 
-function box_dian(arr,node){
+function box_dian(arr, node) {
     for (let i in arr) {
         node.innerHTML += `
-       
+        <div class="box">
         <div class="box_left">
           <span>${data[i].id}</span>
         </div>
         <div class="box_mid">
           <h4>${data[i].dian}</h4>
           <div>${data[i].dizhi}</div>
-          <span>${data[i].juli}/span>
+          <span>${data[i].juli}</span>
         </div>
         <div class="box_right">
           <span></span>
         </div>
+      </div>
+     
       `
     }
 }
-let box = document.querySelector('.box')
-box_dian (data,box)
+let box = document.querySelector('.dian')
+box_dian(data, box)
+
+
+var map = new AMap.Map('container', {
+    zoom: 10,  //设置地图显示的缩放级别
+    center: [116.397428, 39.90923],//设置地图中心点坐标 北京
+    layers: [new AMap.TileLayer()],  //设置图层,可设置成包含一个或多个图层的数组
+    // mapStyle: 'amap://styles/whitesmoke',  //设置地图的显示样式
+    viewMode: '2D',  //设置地图模式
+    lang: 'zh_cn',  //设置地图语言类型
+    resizeEnable: true,
+});
+map.plugin(["AMap.ToolBar"], function() {
+    map.addControl(new AMap.ToolBar());
+    // map.addControl(new AMap.ControlBar());
+});
+
+var url = 'https://webapi.amap.com/maps?v=1.4.15&key=1e6e85df8b5460b69fcc760ce3155d33&callback=onLoad';
+var jsapi = document.createElement('script');
+jsapi.charset = 'utf-8';
+jsapi.src = url;
+document.head.appendChild(jsapi);

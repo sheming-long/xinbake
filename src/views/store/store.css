@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
 }
-.tou{
+
+.tou {
     width: 100vw;
     display: flex;
     align-items: center;
@@ -10,7 +11,8 @@ body {
     padding: 2vw;
     box-sizing: border-box;
 }
-.inp{
+
+.inp {
     width: 100vw;
     height: 14vw;
     display: flex;
@@ -18,58 +20,72 @@ body {
     padding: 2vw;
     box-sizing: border-box;
 }
-.inp div{
+
+.inp div {
     width: 78vw;
     height: 10vw;
     border-bottom: 1px solid;
     position: relative;
 }
-.inp div>input{
+
+.inp div>input {
     width: 85%;
     height: 95%;
     font-size: 6vw;
     border: transparent;
 }
-.inp span{
+
+.inp span {
     display: inline-block;
     font-size: 7vw;
 }
-.inp div img{
+
+.inp div img {
     position: absolute;
     bottom: 0vw;
 }
-.tu{
+
+.tu {
     width: 100vw;
-    height:80vw;
+    height: 80vw;
     position: relative;
 }
-.tu .btn1{
+
+.tu .btn1 {
     width: 6vw;
     height: 6vw;
     background: url(https://webapi.amap.com/theme/v1.3/markers/b/loc_gray.png);
     position: absolute;
     right: 3vw;
 }
-.dian{
+
+.dian {
+
     width: 100vw;
+    height: 60vw;
     padding: 2vw;
     box-sizing: border-box;
+    overflow: scroll;
+
 }
- .box{
+
+.box {
     width: 96vw;
     height: 35vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.box_left{
+
+.box_left {
     width: 10vw;
     height: 12vw;
     background-color: #B3B3B3;
-    background: url(	https://www.starbucks.com.cn/assets/icons/icon-pin-solid-grey.svg);
+    background: url(https://www.starbucks.com.cn/assets/icons/icon-pin-solid-grey.svg);
     background-size: cover;
 }
-.box_left span{
+
+.box_left span {
     display: inline-block;
     color: #FFF;
     text-align: center;
@@ -77,25 +93,60 @@ body {
     height: 10vw;
     font-size: 6vw;
 }
-.box  .box_mid {
+
+.box .box_mid {
     width: 60vw;
     height: 30vw;
 }
-.box_mid div{
+
+.box_mid div {
     font-size: 1.5vw;
 }
-.box_right{
+
+.box_right {
     width: 10vw;
     height: 10vw;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.box_right span{
+
+.box_right span {
     display: inline-block;
     width: 5.8vw;
     height: 5.8vw;
     background: url(https://www.starbucks.com.cn/assets/icons/icon-info-green.svg);
 }
-    
 
+#container {
+    width: 100vw;
+    height: 80vw;
+}
+.footer {
+    width: 100%;
+    margin-top: 10vw;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    background-color: #f7f7f7;
+  }
+  .footer_fang {
+    width: 16%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer_fang p {
+    margin: 0;
+  }
+  .footer_fang p a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 4vw;
+  }
+  .footer_fang img {
+    width: 50%;
+  }
+  
